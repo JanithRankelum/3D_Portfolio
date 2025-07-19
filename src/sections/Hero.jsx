@@ -1,6 +1,7 @@
 
 import Button from "../components/Button";
 import { words } from "../constants";
+import HeroExperience from "c:/Users/Janith/Downloads/3d-portfolio-main/3d-portfolio-main/src/components/models/hero_models/HeroExperience";
 
 
 const Hero = () => {
@@ -51,7 +52,12 @@ const Hero = () => {
             />
           </div>
         </header>
-
+        {/* RIGHT: 3D Model or Visual */}
+		<figure>
+			<div className="hero-3d-layout">
+				<HeroExperience/>
+			</div>
+		</figure>
         
       </div>
 
