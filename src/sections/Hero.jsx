@@ -1,7 +1,7 @@
 
 import Button from "../components/Button";
 import { words } from "../constants";
-import HeroExperience from "c:/Users/Janith/Downloads/3d-portfolio-main/3d-portfolio-main/src/components/models/hero_models/HeroExperience";
+import HeroExperience from "../components/models/hero_models/HeroExperience";
 
 
 const Hero = () => {
