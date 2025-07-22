@@ -17,6 +17,7 @@
     "@tailwindcss/vite": "^4.1.11",
     "gsap": "^3.13.0",
     "react": "^19.1.0",
+    "react-countup": "^6.5.3",
     "react-dom": "^19.1.0",
     "react-responsive": "^10.0.1",
     "tailwindcss": "^4.1.11",

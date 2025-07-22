@@ -1,25 +1,18 @@
+import { useGSAP } from "@gsap/react";
+import gsap from "gsap";
 
+import AnimatedCounter from "../components/AnimatedCounter";
 import Button from "../components/Button";
 import { words } from "../constants";
 import HeroExperience from "../components/models/hero_models/HeroExperience";
-import { useGSAP } from "@gsap/react";
-import gsap from "gsap";
-import { use } from "react";
 
 const Hero = () => {
   useGSAP(() => {
-    gsap.fromTo('.hero-text h1', 
-    {
-      opacity: 0,
-      y: 50
-    },
-    {
-      opacity: 1,
-      y: 0,
-      duration: 1,
-      stagger: 0.2,
-      ease: "power2.inOut"
-    });
+    gsap.fromTo(
+      ".hero-text h1",
+      { y: 50, opacity: 0 },
+      { y: 0, opacity: 1, stagger: 0.2, duration: 1, ease: "power2.inOut" }
+    );
   });
 
   return (
@@ -69,16 +62,16 @@ const Hero = () => {
             />
           </div>
         </header>
+
         {/* RIGHT: 3D Model or Visual */}
-		<figure>
-			<div className="hero-3d-layout">
-				<HeroExperience/>
-			</div>
-		</figure>
-        
+        <figure>
+          <div className="hero-3d-layout">
+            <HeroExperience />
+          </div>
+        </figure>
       </div>
 
-      
+      <AnimatedCounter />
     </section>
   );
 };
