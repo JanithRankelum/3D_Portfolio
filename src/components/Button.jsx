@@ -1,8 +1,4 @@
-/**
- * A reusable CTA button component.
- * When clicked, it scrolls smoothly to the section with ID "counter",
- * with a small offset from the top for better visual placement.
- */
+
 
 const Button = ({ text, className, id }) => {
   return (
@@ -19,7 +15,7 @@ const Button = ({ text, className, id }) => {
 
           // Calculate how far down the page we need to scroll
           const top =
-            target.getBoundingClientRect().top + window.pageYOffset - offset;
+            target.getBoundingClientRect().top + window.scrollY - offset;
 
           // Scroll smoothly to that position
           window.scrollTo({ top, behavior: "smooth" });
