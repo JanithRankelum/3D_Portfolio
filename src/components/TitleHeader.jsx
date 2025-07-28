@@ -1,4 +1,4 @@
-const TitleHeader = ({ title, subtitle }) => {
+const TitleHeader = ({ title, sub }) => {
     return (
         <div className="dlex flex-col items-center gap-5"> 
         <div className="hero-badge">
