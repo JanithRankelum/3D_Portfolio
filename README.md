@@ -17,4 +17,23 @@ Features 3D models, smooth animations, scroll-triggered effects, and interactive
 
 ---
 
+## 🛠️ Tech Stack
+
+- [React](https://react.dev/)
+- [Vite](https://vitejs.dev/)
+- [Three.js](https://threejs.org/) + [React Three Fiber](https://docs.pmnd.rs/react-three-fiber)
+- [Drei](https://github.com/pmndrs/drei)
+- [GSAP](https://greensock.com/gsap/)
+- [EmailJS](https://www.emailjs.com/)
+- [Tailwind CSS](https://tailwindcss.com/)
+
+---
+
+## 📦 Installation
+
+1. **Clone the repository**
+```bash
+git clone https://github.com/yourusername/3d-portfolio.git
+cd 3d-portfolio
+
 
