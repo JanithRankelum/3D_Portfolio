@@ -1,12 +1,20 @@
-# React + Vite
+# 🌟 3D Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fully responsive and animated 3D portfolio website built with **React**, **Vite**, **Three.js**, **React Three Fiber**, **GSAP**, and **EmailJS**.  
+Features 3D models, smooth animations, scroll-triggered effects, and interactive sections.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- **Interactive 3D Models** using React Three Fiber & Drei
+- **Smooth Animations** with GSAP & ScrollTrigger
+- **Responsive Design** for all devices
+- **Animated Counters**
+- **Marquee Logo Section**
+- **Contact Form** powered by EmailJS
+- Optimized for performance
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+
