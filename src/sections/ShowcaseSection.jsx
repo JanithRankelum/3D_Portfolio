@@ -71,7 +71,7 @@ const AppShowcase = () => {
                   alt="Library Management Platform"
                 />
               </div>
-              <h2>The Library Management Platform</h2>
+              <h2>Machine-Learning and Snowflake Powered Price Prediction for Rice Economy</h2>
             </div>
 
             <div className="project" ref={ycDirectoryRef}>
