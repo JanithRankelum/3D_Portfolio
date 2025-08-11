@@ -10,7 +10,7 @@ const Footer = () => {
             </div>
             <div className="socials">
                 {socialImgs.map((img) => (
-                    <a className="icon" target="_blank" href={img.url} key={img.url}>
+                    <a className="icon" target="_blank" href={img.url} key={img.url} onClick={() => window.open(img.href, '_blank')}>
                         <img src={img.imgPath}/>
                     </a>
                 ))}

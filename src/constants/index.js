@@ -1,3 +1,5 @@
+import { hydrateRoot } from "react-dom/client";
+
 const navLinks = [
   {
     name: "Work",
@@ -246,21 +248,26 @@ const testimonials = [
 
 const socialImgs = [
   {
-    name: "insta",
-    imgPath: "/images/insta.png",
-  },
-  {
-    name: "fb",
-    imgPath: "/images/fb.png",
-  },
-  {
-    name: "x",
-    imgPath: "/images/x.png",
+    name: "github",
+    imgPath: "/images/git.png",
+    href: "https://github.com/JanithRankelum"
   },
   {
     name: "linkedin",
     imgPath: "/images/linkedin.png",
+    href: "https://www.linkedin.com/in/janith-rankelum-119080286/"
   },
+  {
+    name: "fb",
+    imgPath: "/images/fb.png",
+    href: "https://www.facebook.com/janith.rankelum.2025"
+  },
+  {
+    name: "x",
+    imgPath: "/images/x.png",
+    href: "https://twitter.com/JanithRankelum"
+  },
+  
 ];
 
 export {
