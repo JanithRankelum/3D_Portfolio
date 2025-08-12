@@ -155,9 +155,9 @@ const expCards = [
     title: "G.C.E. A/L Examination - Richmond College",
     date: "July 2017 - August 2019",
     responsibilities: [
-      "Developed and maintained user-facing features for the Hostinger website.",
-      "Collaborated closely with UI/UX designers to ensure seamless user experiences.",
-      "Optimized web applications for maximum speed and scalability.",
+      "Successfully completed Advanced Level studies with a strong focus on Biological Science.",
+      "Developed analytical thinking, problem-solving, and research skills through rigorous coursework and laboratory projects.",
+      "Actively participated in school science clubs and biology-related competitions, fostering teamwork and leadership.",
     ],
   },
   {
@@ -167,9 +167,9 @@ const expCards = [
     title: "Diploma in Software Engineering at NSBM Green University",
     date: "sep 2022 - sep 2023",
     responsibilities: [
-      "Led the development of Docker's web applications, focusing on scalability.",
-      "Worked with backend engineers to integrate APIs seamlessly with the frontend.",
-      "Contributed to open-source projects that were used with the Docker ecosystem.",
+      "Acquired a solid foundation in programming, databases, and software development lifecycle (SDLC).",
+      "Completed hands-on projects in C, C#, web development, and database management systems.",
+      "Collaborated in team-based software projects, applying Agile methodologies and version control.",
     ],
   },
   {
@@ -179,9 +179,9 @@ const expCards = [
     title: "Degree in Computer Science at University of Plymouth",
     date: "Sep 2023 - sep 2025",
     responsibilities: [
-      "Built cross-platform mobile apps using React Native, integrating with Appwrite's backend services.",
-      "Improved app performance and user experience through code optimization and testing.",
-      "Coordinated with the product team to implement features based on feedback.",
+      "Specialized in AI, machine learning, IoT, and full stack development.",
+      "Designed and implemented real-world projects, including AI-powered IoT systems and cloud-based applications.",
+      "Gained expertise in problem-solving, research methodologies, and software architecture.",
     ],
   },
 ];
