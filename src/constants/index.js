@@ -1,3 +1,5 @@
+import { hydrateRoot } from "react-dom/client";
+
 const navLinks = [
   {
     name: "Work",
@@ -147,11 +149,11 @@ const techStackIcons = [
 
 const expCards = [
   {
-    review: "Adrian brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
+    review: "Janith, brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
     imgPath: "/images/exp1.png",
     logoPath: "/images/logo1.png",
-    title: "Frontend Developer",
-    date: "January 2023 - Present",
+    title: "G.C.E. A/L Examination - Richmond College",
+    date: "July 2017 - August 2019",
     responsibilities: [
       "Developed and maintained user-facing features for the Hostinger website.",
       "Collaborated closely with UI/UX designers to ensure seamless user experiences.",
@@ -159,11 +161,11 @@ const expCards = [
     ],
   },
   {
-    review: "Adrian’s contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
+    review: "Janith's contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
     imgPath: "/images/exp2.png",
     logoPath: "/images/logo2.png",
-    title: "Full Stack Developer",
-    date: "June 2020 - December 2023",
+    title: "Diploma in Software Engineering at NSBM Green University",
+    date: "sep 2022 - sep 2023",
     responsibilities: [
       "Led the development of Docker's web applications, focusing on scalability.",
       "Worked with backend engineers to integrate APIs seamlessly with the frontend.",
@@ -171,11 +173,11 @@ const expCards = [
     ],
   },
   {
-    review: "Adrian’s work on Appwrite’s mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
+    review: "Janith's work on Appwrite’s mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
     imgPath: "/images/exp3.png",
     logoPath: "/images/logo3.png",
-    title: "React Native Developer",
-    date: "March 2019 - May 2020",
+    title: "Degree in Computer Science at University of Plymouth",
+    date: "Sep 2023 - sep 2025",
     responsibilities: [
       "Built cross-platform mobile apps using React Native, integrating with Appwrite's backend services.",
       "Improved app performance and user experience through code optimization and testing.",
@@ -246,21 +248,26 @@ const testimonials = [
 
 const socialImgs = [
   {
-    name: "insta",
-    imgPath: "/images/insta.png",
-  },
-  {
-    name: "fb",
-    imgPath: "/images/fb.png",
-  },
-  {
-    name: "x",
-    imgPath: "/images/x.png",
+    name: "github",
+    imgPath: "/images/git.png",
+    href: "https://github.com/JanithRankelum"
   },
   {
     name: "linkedin",
     imgPath: "/images/linkedin.png",
+    href: "https://www.linkedin.com/in/janith-rankelum-119080286/"
   },
+  {
+    name: "fb",
+    imgPath: "/images/fb.png",
+    href: "https://www.facebook.com/janith.rankelum.2025"
+  },
+  {
+    name: "x",
+    imgPath: "/images/x.png",
+    href: "https://twitter.com/JanithRankelum"
+  },
+  
 ];
 
 export {
