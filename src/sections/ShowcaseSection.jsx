@@ -42,6 +42,7 @@ const AppShowcase = () => {
       );
     });
   }, []);
+  
 
   return (
     <div id="work" ref={sectionRef} className="app-showcase">
