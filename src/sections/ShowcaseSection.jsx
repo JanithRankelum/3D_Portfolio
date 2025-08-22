@@ -2,6 +2,7 @@ import { useRef } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useGSAP } from "@gsap/react";
+import { useNavigate } from "react-router-dom"; // For navigation
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -10,39 +11,27 @@ const AppShowcase = () => {
   const rydeRef = useRef(null);
   const libraryRef = useRef(null);
   const ycDirectoryRef = useRef(null);
+  const navigate = useNavigate(); // Hook for navigation
 
   useGSAP(() => {
-    // Animation for the main section
-    gsap.fromTo(
-      sectionRef.current,
-      { opacity: 0 },
-      { opacity: 1, duration: 1.5 }
-    );
+    gsap.fromTo(sectionRef.current, { opacity: 0 }, { opacity: 1, duration: 1.5 });
 
-    // Animations for each app showcase
     const cards = [rydeRef.current, libraryRef.current, ycDirectoryRef.current];
 
     cards.forEach((card, index) => {
       gsap.fromTo(
         card,
-        {
-          y: 50,
-          opacity: 0,
-        },
+        { y: 50, opacity: 0 },
         {
           y: 0,
           opacity: 1,
           duration: 1,
           delay: 0.3 * (index + 1),
-          scrollTrigger: {
-            trigger: card,
-            start: "top bottom-=100",
-          },
+          scrollTrigger: { trigger: card, start: "top bottom-=100" },
         }
       );
     });
   }, []);
-  
 
   return (
     <div id="work" ref={sectionRef} className="app-showcase">
@@ -81,6 +70,16 @@ const AppShowcase = () => {
               </div>
               <h2>E - Commerce Platform Web App</h2>
             </div>
+          </div>
+
+          {/* See More Button */}
+          <div className="mt-6 text-center">
+            <button
+              onClick={() => navigate("../projects")}
+              className="px-6 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-all duration-300"
+            >
+              See More
+            </button>
           </div>
         </div>
       </div>
