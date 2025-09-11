@@ -72,15 +72,22 @@ const AppShowcase = () => {
             </div>
           </div>
 
-          {/* See More Button */}
-          <div className="mt-6 text-center">
-            <button
-              onClick={() => navigate("../projects")}
-              className="px-6 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-all duration-300"
-            >
-              See More
-            </button>
-          </div>
+         {/* See More Button */}
+<div className="mt-8 text-center">
+  <button
+    onClick={() => navigate('../src/sections/projects')}
+    className="relative px-8 py-3 rounded-xl font-semibold text-white 
+               bg-gradient-to-r from-yellow-500 to-orange-600 
+               shadow-lg shadow-yellow-500/30
+               hover:scale-105 hover:shadow-yellow-500/50
+               transition-all duration-300 ease-in-out"
+  >
+    <span className="relative z-10">🚀 See More</span>
+    <span className="absolute inset-0 rounded-xl bg-gradient-to-r 
+                     from-yellow-400 to-orange-500 blur opacity-30"></span>
+  </button>
+</div>
+
         </div>
       </div>
     </div>
